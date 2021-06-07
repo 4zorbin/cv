@@ -1,7 +1,12 @@
 body {
 
 }
-
+@media screen and (max-width: 400px) {
+  .navbar {
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+   }
+ }
 .print {
   width: 80%;
   margin: 20px auto;
@@ -171,6 +176,11 @@ h3 {
 }
 .work .work-group p, .right-field .about p {
     word-break: normal;
+}
+.work-group span{
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
 .fab {
   padding: 20px;
